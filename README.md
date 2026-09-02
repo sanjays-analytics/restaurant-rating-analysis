@@ -87,9 +87,9 @@ Cluster 2 reads as the clear "premium" segment: table booking, higher prices, an
 
 ```
 restaurant-rating-analysis/
-├── data/                              # place FoodieBay.csv here to run locally (not committed, see below)
+├── data/
+│   ├── FoodieBay.csv
+│   └── FoodieBay_metadata.csv
 ├── restaurant_rating_analysis.ipynb
 └── README.md
 ```
-
-**Note on the dataset file**: `FoodieBay.csv` (~49MB) is not committed to this repository to keep it lightweight and fast to clone. To run the notebook yourself, place the CSV in a `data/` folder at the repo root.
